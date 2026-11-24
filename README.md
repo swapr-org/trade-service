@@ -1,6 +1,6 @@
 # trade-service
 
-The swapr service that owns offers: making them, accepting and declining them, and cancelling them automatically. It started as a copy of `trade-service`, so its build, lint, configuration, authentication and delivery pipeline match that reference service.
+The swapr service that owns offers: making them, accepting and declining them, and cancelling them automatically. It started as a copy of `user-service`, so its build, lint, configuration, authentication and delivery pipeline match that reference service.
 
 Stack: Java 25, Spring Boot 4, Maven, Flyway, Checkstyle (Google rules, 120 columns), deployed to Render as a GraalVM native image.
 
